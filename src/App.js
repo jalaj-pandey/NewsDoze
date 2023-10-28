@@ -20,7 +20,6 @@ const App = () => {
         height={3}
         color='#f11946'
         progress={progress}
-        
       />
         <Routes>
           <Route exact path="/" element = {<News setProgress={setProgress} apiKey = {apiKey} pageSize = {pageSize} country='in' />}/>
